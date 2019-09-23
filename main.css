@@ -6,7 +6,9 @@ body {
 a {
     color: #637575f;
 }
-
+hr{
+    opacity: 0.4;
+}
 .topNav {
     display: flex;
     height: 64px;
@@ -353,4 +355,8 @@ footer svg{
     transform: skew(10deg);
     transition-duration: 0500ms;
     cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 0800ms;
 }
